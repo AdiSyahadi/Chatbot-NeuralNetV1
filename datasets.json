@@ -1,0 +1,366 @@
+{
+  "datasets": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Apa kabar?",
+        "Salam kenal",
+        "Hello",
+        "Assalamualaikum",
+        "Hai",
+        "Halo",
+        "Selamat pagi",
+        "Selamat siang",
+        "Selamat malam"
+      ],
+      "responses": [
+        "Hey! :-)",
+        "Hello! Senang bisa ngobrol dengan kamu!",
+        "Hi, gimana kabarnya?",
+        "Hai! Ada yang bisa aku bantu?",
+        "Halo! Senang bertemu dengan kamu!",
+        "Assalamualaikum! Bagaimana kabar hari ini?",
+        "Selamat pagi! Ada yang bisa kubantu?",
+        "Selamat siang! Ada yang ingin kamu ketahui?",
+        "Selamat malam! Apa yang bisa kubantu malam ini?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Selamat tinggal",
+        "Sampai jumpa",
+        "Dadah",
+        "Bye",
+        "Sampai nanti",
+        "Terima kasih, sampai jumpa"
+      ],
+      "responses": [
+        "Sampai jumpa lagi!",
+        "Dadah! Semoga harimu menyenangkan!",
+        "Sampai nanti!",
+        "Bye! Jangan sungkan untuk kembali ya!",
+        "Terima kasih juga! Sampai jumpa lagi!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Terima kasih",
+        "Thanks",
+        "Makasih",
+        "Thank you",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "Sama-sama!",
+        "Dengan senang hati!",
+        "Nggak masalah!",
+        "Sama-sama, senang bisa membantu!",
+        "Terima kasih kembali!"
+      ]
+    },
+    {
+      "tag": "definition_ai",
+      "patterns": [
+        "Apa itu AI?",
+        "Apa itu kecerdasan buatan?",
+        "Bisa jelaskan tentang AI?",
+        "AI itu apa?",
+        "Apa maksud dari AI?",
+        "AI artinya apa?",
+        "Ceritakan tentang AI",
+        "Apa itu Artificial Intelligence?",
+        "AI buat apa?",
+        "Kenapa AI penting?"
+      ],
+      "responses": [
+        "AI atau Kecerdasan Buatan adalah teknologi yang membuat mesin bisa berpikir dan belajar seperti manusia. Contohnya seperti chatbot dan asisten virtual.",
+        "AI adalah singkatan dari Artificial Intelligence, yaitu kemampuan mesin untuk melakukan tugas-tugas yang biasanya membutuhkan kecerdasan manusia, seperti mengenali suara, gambar, dan membuat keputusan.",
+        "AI itu teknologi yang bikin komputer bisa 'cerdas' dan melakukan tugas yang biasanya butuh otak manusia, kayak mengenali wajah dan suara.",
+        "Artificial Intelligence adalah kemampuan komputer untuk melakukan tugas yang biasanya memerlukan kecerdasan manusia, seperti belajar dari pengalaman dan menyesuaikan diri dengan informasi baru.",
+        "AI memungkinkan mesin untuk mempelajari dan mengadaptasi data, sehingga mereka bisa melakukan tugas yang rumit dengan cara yang lebih efisien."
+      ]
+    },
+    {
+      "tag": "benefits_ai",
+      "patterns": [
+        "Apa manfaat AI?",
+        "Kenapa AI penting?",
+        "Bagaimana AI bisa membantu kita?",
+        "Kelebihan dari AI apa saja?",
+        "Apa saja keuntungan menggunakan AI?",
+        "Mengapa kita perlu AI?",
+        "Apa yang bisa AI lakukan untuk kita?",
+        "Manfaat AI dalam kehidupan sehari-hari?"
+      ],
+      "responses": [
+        "AI punya banyak manfaat, seperti mempercepat pekerjaan, mengurangi kesalahan, dan membantu kita membuat keputusan yang lebih baik.",
+        "AI bisa membantu kita dalam banyak hal, seperti mendiagnosis penyakit, memberikan rekomendasi produk, dan bahkan mengemudikan mobil secara otomatis.",
+        "AI itu keren banget karena bisa bikin kerjaan lebih cepat dan akurat, serta membantu kita dalam banyak hal sehari-hari.",
+        "Dengan AI, banyak tugas yang bisa diotomatisasi, sehingga kita bisa fokus pada hal-hal yang lebih penting dan kreatif.",
+        "AI bisa membantu meningkatkan efisiensi dan produktivitas di berbagai bidang, seperti kesehatan, keuangan, dan transportasi."
+      ]
+    },
+    {
+      "tag": "applications_ai",
+      "patterns": [
+        "Dimana AI digunakan?",
+        "Contoh penerapan AI apa saja?",
+        "AI digunakan di bidang apa saja?",
+        "Apa saja aplikasi dari AI?",
+        "AI bisa digunakan untuk apa saja?",
+        "Contoh nyata penggunaan AI?",
+        "Penerapan AI dalam kehidupan sehari-hari?"
+      ],
+      "responses": [
+        "AI digunakan di berbagai bidang, seperti kesehatan untuk diagnosa penyakit, keuangan untuk deteksi penipuan, transportasi untuk mobil otonom, dan banyak lagi.",
+        "AI banyak digunakan dalam industri kesehatan, keuangan, pendidikan, transportasi, dan juga di rumah-rumah pintar.",
+        "Contoh penerapan AI termasuk chatbot untuk layanan pelanggan, sistem rekomendasi di platform streaming, dan pengenalan wajah di keamanan.",
+        "AI bisa digunakan dalam aplikasi seperti asisten virtual, deteksi penyakit dini, analisis data besar, dan banyak lagi.",
+        "Penggunaan AI juga meluas ke bidang pertanian, manufaktur, dan bahkan hiburan seperti game dan film."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "Apa itu pembelajaran mesin?",
+        "Jelaskan tentang machine learning?",
+        "Machine learning itu apa?",
+        "Bagaimana cara kerja machine learning?",
+        "Apa yang dimaksud dengan pembelajaran mesin?",
+        "Machine learning artinya apa?",
+        "Apa itu ML?",
+        "Contoh machine learning?"
+      ],
+      "responses": [
+        "Pembelajaran mesin adalah cabang dari AI yang melibatkan algoritma dan statistik untuk memungkinkan komputer belajar dari data tanpa diprogram secara eksplisit.",
+        "Machine learning adalah teknik di mana komputer bisa belajar dan membuat keputusan dari data tanpa harus diprogram secara langsung untuk setiap tugas.",
+        "Pembelajaran mesin adalah proses di mana komputer menggunakan data untuk belajar dan memperbaiki kinerja mereka seiring waktu.",
+        "Machine learning memungkinkan komputer untuk belajar dari pengalaman dan data, serta meningkatkan kemampuannya seiring waktu tanpa pemrograman tambahan.",
+        "Contoh dari machine learning adalah sistem rekomendasi di platform streaming dan prediksi cuaca."
+      ]
+    },
+    {
+      "tag": "natural_language_processing",
+      "patterns": [
+        "Apa itu pemrosesan bahasa alami?",
+        "Jelaskan tentang NLP?",
+        "NLP itu apa?",
+        "Apa yang dimaksud dengan pemrosesan bahasa alami?",
+        "Bagaimana cara kerja NLP?",
+        "NLP artinya apa?",
+        "Apa itu Natural Language Processing?",
+        "Contoh NLP?"
+      ],
+      "responses": [
+        "Pemrosesan Bahasa Alami (NLP) adalah cabang dari AI yang berfokus pada interaksi antara komputer dan manusia menggunakan bahasa alami. Contohnya termasuk chatbot dan asisten virtual.",
+        "NLP adalah teknologi yang memungkinkan komputer memahami, menafsirkan, dan merespons bahasa manusia dengan cara yang alami.",
+        "Pemrosesan bahasa alami adalah teknik yang digunakan untuk membuat komputer bisa mengerti dan menanggapi teks dan ucapan manusia.",
+        "Contoh NLP termasuk asisten virtual seperti Siri dan Google Assistant, serta alat penerjemah bahasa otomatis.",
+        "NLP memungkinkan komputer untuk memahami dan menganalisis teks dalam jumlah besar, seperti artikel berita atau ulasan produk."
+      ]
+    },
+    {
+      "tag": "robotics",
+      "patterns": [
+        "Apa itu robotika?",
+        "Jelaskan tentang robotika?",
+        "Robotika itu apa?",
+        "Bagaimana cara kerja robotika?",
+        "Apa yang dimaksud dengan robotika?",
+        "Robotika artinya apa?",
+        "Apa itu robotics?",
+        "Contoh robotika?"
+      ],
+      "responses": [
+        "Robotika adalah cabang dari AI yang melibatkan desain, konstruksi, operasi, dan penggunaan robot. Robot dapat digunakan dalam berbagai industri untuk tugas-tugas yang berulang dan berbahaya.",
+        "Robotika adalah bidang yang menggabungkan ilmu komputer dan teknik untuk menciptakan mesin yang bisa melakukan tugas-tugas yang biasanya dilakukan oleh manusia.",
+        "Robotika mencakup semua hal yang terkait dengan robot, dari desain hingga operasinya di lapangan, seringkali untuk menggantikan atau membantu manusia.",
+        "Contoh dari robotika adalah robot pembersih rumah, robot industri yang digunakan dalam pabrik, dan robot medis untuk operasi.",
+        "Robotika juga mencakup pengembangan teknologi untuk kendaraan otonom dan drone."
+      ]
+    },
+    {
+      "tag": "future_of_ai",
+      "patterns": [
+        "Bagaimana masa depan AI?",
+        "Apa yang akan terjadi dengan AI di masa depan?",
+        "Masa depan AI itu bagaimana?",
+        "Apa prediksi untuk AI di masa depan?",
+        "Bagaimana perkembangan AI di masa mendatang?",
+        "AI akan seperti apa di masa depan?",
+        "Perkembangan AI ke depannya?"
+      ],
+      "responses": [
+        "Masa depan AI sangat menjanjikan dengan potensi untuk mengubah banyak aspek kehidupan kita. Ini termasuk perkembangan dalam bidang kesehatan, transportasi, pendidikan, dan banyak lagi.",
+        "AI di masa depan kemungkinan akan lebih terintegrasi dalam kehidupan sehari-hari kita, membantu kita dalam berbagai aspek seperti pekerjaan, kesehatan, dan hiburan.",
+        "Perkembangan AI di masa depan akan terus maju, dengan lebih banyak inovasi dan aplikasi baru yang akan membuat hidup kita lebih mudah dan efisien.",
+        "Di masa depan, AI bisa membantu menciptakan teknologi baru yang belum pernah kita bayangkan sebelumnya, membuat pekerjaan lebih aman dan produktif.",
+        "AI akan terus berkembang dan mungkin suatu hari bisa memiliki kemampuan yang sangat dekat dengan kecerdasan manusia, membantu kita dalam cara-cara yang sangat canggih."
+      ]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "Apa kabar?",
+        "Gimana hari kamu?",
+        "Lagi ngapain?",
+        "Ceritain tentang dirimu",
+        "Ada rencana apa hari ini?",
+        "Apa yang kamu suka lakukan?",
+        "Punya hobi apa?",
+        "Apa makanan favoritmu?",
+        "Suka film apa?",
+        "Bagaimana cuaca hari ini?"
+      ],
+      "responses": [
+        "Aku baik-baik saja, terima kasih! Gimana dengan kamu?",
+        "Hari ini cukup menyenangkan, bagaimana dengan harimu?",
+        "Aku sedang siap-siap membantu kamu! Kamu sendiri lagi apa?",
+        "Aku adalah asisten virtual yang siap membantu kamu kapan saja!",
+        "Belum ada rencana khusus, mungkin nanti membantu lebih banyak orang seperti kamu!",
+        "Aku suka membantu orang dan belajar hal baru setiap hari.",
+        "Aku tidak punya hobi, tapi aku suka mempelajari hal-hal baru!",
+        "Aku tidak makan, tapi aku senang mendengar tentang makanan favoritmu!",
+        "Aku tidak menonton film, tapi aku bisa merekomendasikan film bagus untukmu!",
+        "Aku tidak bisa merasakan cuaca, tapi aku bisa cek cuaca untukmu!"
+      ]
+    },
+    {
+      "tag": "personal_development",
+      "patterns": [
+        "Bagaimana cara menjadi lebih produktif?",
+        "Tips untuk meningkatkan produktivitas?",
+        "Cara mengatur waktu dengan baik?",
+        "Bagaimana agar bisa lebih fokus?",
+        "Apa yang bisa dilakukan untuk meningkatkan konsentrasi?",
+        "Bagaimana cara mengatasi prokrastinasi?",
+        "Tips untuk menjadi lebih disiplin?",
+        "Bagaimana cara membuat tujuan yang efektif?",
+        "Bagaimana cara mencapai tujuan?",
+        "Tips untuk mengembangkan kebiasaan baik?"
+      ],
+      "responses": [
+        "Untuk menjadi lebih produktif, coba buat daftar tugas harian dan prioritaskan tugas yang paling penting.",
+        "Mengatur waktu dengan baik bisa dimulai dengan membuat jadwal yang jelas dan mengikuti rutinitas harian.",
+        "Untuk meningkatkan konsentrasi, coba lakukan latihan meditasi atau teknik pernapasan.",
+        "Mengatasi prokrastinasi bisa dilakukan dengan memecah tugas besar menjadi tugas-tugas kecil yang lebih mudah dikelola.",
+        "Menjadi lebih disiplin bisa dimulai dengan menetapkan aturan yang jelas untuk diri sendiri dan mematuhi mereka.",
+        "Membuat tujuan yang efektif bisa dilakukan dengan menggunakan metode SMART: Specific, Measurable, Achievable, Relevant, Time-bound.",
+        "Mencapai tujuan membutuhkan komitmen dan konsistensi. Pastikan kamu tetap termotivasi dan pantang menyerah.",
+        "Mengembangkan kebiasaan baik bisa dimulai dengan langkah kecil dan meningkatkan secara bertahap. Konsistensi adalah kunci."
+      ]
+    },
+    {
+      "tag": "general_knowledge",
+      "patterns": [
+        "Apa ibu kota Indonesia?",
+        "Siapa presiden pertama Amerika Serikat?",
+        "Berapa jumlah planet di tata surya?",
+        "Apa bahasa resmi di Brasil?",
+        "Dimana letak Menara Eiffel?",
+        "Apa gunung tertinggi di dunia?",
+        "Apa nama lautan terbesar di dunia?",
+        "Siapa penulis Harry Potter?",
+        "Apa mata uang Jepang?",
+        "Dimana letak Piramida Giza?"
+      ],
+      "responses": [
+        "Ibu kota Indonesia adalah Jakarta.",
+        "Presiden pertama Amerika Serikat adalah George Washington.",
+        "Ada delapan planet di tata surya.",
+        "Bahasa resmi di Brasil adalah Portugis.",
+        "Menara Eiffel terletak di Paris, Prancis.",
+        "Gunung tertinggi di dunia adalah Gunung Everest.",
+        "Lautan terbesar di dunia adalah Samudra Pasifik.",
+        "Penulis Harry Potter adalah J.K. Rowling.",
+        "Mata uang Jepang adalah Yen.",
+        "Piramida Giza terletak di Mesir."
+      ]
+    },
+    {
+      "tag": "technology_trends",
+      "patterns": [
+        "Apa tren teknologi terbaru?",
+        "Bagaimana masa depan teknologi?",
+        "Teknologi apa yang sedang berkembang saat ini?",
+        "Apa inovasi terbaru di bidang teknologi?",
+        "Bagaimana teknologi mempengaruhi kehidupan kita?",
+        "Apa yang dimaksud dengan Internet of Things?",
+        "Apa itu blockchain?",
+        "Apa itu 5G?",
+        "Bagaimana cara kerja teknologi VR?",
+        "Apa manfaat dari teknologi AR?"
+      ],
+      "responses": [
+        "Tren teknologi terbaru termasuk AI, IoT, blockchain, dan 5G.",
+        "Masa depan teknologi sangat menjanjikan dengan perkembangan di bidang AI, robotika, dan bioteknologi.",
+        "Teknologi yang sedang berkembang saat ini termasuk AI, blockchain, dan VR.",
+        "Inovasi terbaru di bidang teknologi termasuk perangkat 5G, kendaraan otonom, dan teknologi quantum computing.",
+        "Teknologi mempengaruhi kehidupan kita dengan membuat pekerjaan lebih efisien, meningkatkan kualitas hidup, dan membuka peluang baru.",
+        "Internet of Things (IoT) adalah konsep menghubungkan berbagai perangkat melalui internet untuk saling berkomunikasi.",
+        "Blockchain adalah teknologi yang mendasari mata uang kripto, memungkinkan transaksi yang aman dan transparan.",
+        "5G adalah generasi terbaru dari teknologi jaringan seluler yang menawarkan kecepatan internet yang jauh lebih tinggi.",
+        "Teknologi VR (Virtual Reality) memungkinkan pengguna merasakan lingkungan yang sepenuhnya dibuat oleh komputer.",
+        "Teknologi AR (Augmented Reality) menambahkan elemen digital ke dunia nyata, meningkatkan interaksi dan pengalaman pengguna."
+      ]
+    },
+    {
+      "tag": "health_and_wellness",
+      "patterns": [
+        "Bagaimana cara hidup sehat?",
+        "Tips untuk diet yang baik?",
+        "Cara menjaga kesehatan mental?",
+        "Bagaimana cara mengurangi stres?",
+        "Apa manfaat olahraga?",
+        "Bagaimana cara tidur nyenyak?",
+        "Tips untuk menjaga kesehatan jantung?",
+        "Bagaimana cara mengatasi kecemasan?",
+        "Apa yang bisa dilakukan untuk meningkatkan imun tubuh?",
+        "Bagaimana cara menjaga berat badan ideal?"
+      ],
+      "responses": [
+        "Untuk hidup sehat, pastikan kamu makan makanan bergizi, berolahraga secara teratur, dan cukup tidur.",
+        "Diet yang baik melibatkan konsumsi buah-buahan, sayuran, protein sehat, dan menghindari makanan olahan.",
+        "Kesehatan mental bisa dijaga dengan meditasi, berbicara dengan orang terdekat, dan mencari bantuan profesional jika perlu.",
+        "Mengurangi stres bisa dilakukan dengan teknik relaksasi seperti yoga, meditasi, dan olahraga.",
+        "Olahraga memiliki banyak manfaat, termasuk meningkatkan kesehatan jantung, membangun otot, dan meningkatkan mood.",
+        "Untuk tidur nyenyak, cobalah menjaga rutinitas tidur yang konsisten dan hindari kafein sebelum tidur.",
+        "Menjaga kesehatan jantung bisa dilakukan dengan makan makanan rendah lemak jenuh, berolahraga, dan tidak merokok.",
+        "Mengatasi kecemasan bisa dengan teknik pernapasan dalam, berbicara dengan teman, atau mencari bantuan profesional.",
+        "Meningkatkan imun tubuh bisa dilakukan dengan makan makanan bergizi, berolahraga, dan cukup tidur.",
+        "Untuk menjaga berat badan ideal, coba atur pola makan yang seimbang dan berolahraga secara teratur."
+      ]
+    },
+    {
+      "tag": "travel_and_leisure",
+      "patterns": [
+        "Tempat wisata apa yang bagus dikunjungi?",
+        "Apa saja destinasi liburan terbaik?",
+        "Bagaimana cara merencanakan perjalanan?",
+        "Tips untuk bepergian dengan aman?",
+        "Apa yang harus dibawa saat traveling?",
+        "Destinasi wisata terbaik di dunia?",
+        "Bagaimana cara mencari tiket pesawat murah?",
+        "Apa saja atraksi turis terkenal di Eropa?",
+        "Tips untuk perjalanan panjang?",
+        "Apa tempat wisata terbaik di Indonesia?"
+      ],
+      "responses": [
+        "Beberapa tempat wisata yang bagus dikunjungi termasuk Bali, Paris, Tokyo, dan New York.",
+        "Destinasi liburan terbaik meliputi pantai-pantai di Maladewa, pegunungan Alpen di Swiss, dan kota-kota bersejarah seperti Roma dan Kyoto.",
+        "Untuk merencanakan perjalanan, pastikan kamu membuat itinerary, memesan akomodasi dan transportasi sebelumnya, dan menyiapkan dokumen penting.",
+        "Bepergian dengan aman bisa dilakukan dengan menjaga barang berharga, mengikuti aturan lokal, dan selalu waspada.",
+        "Saat traveling, pastikan membawa pakaian sesuai cuaca, dokumen penting, obat-obatan, dan peralatan mandi.",
+        "Destinasi wisata terbaik di dunia termasuk Grand Canyon, Menara Eiffel, Tembok Besar China, dan Great Barrier Reef.",
+        "Mencari tiket pesawat murah bisa dengan memesan jauh-jauh hari, memantau promo, dan menggunakan situs perbandingan harga.",
+        "Beberapa atraksi turis terkenal di Eropa termasuk Menara Eiffel di Paris, Colosseum di Roma, dan Kanal Venesia.",
+        "Untuk perjalanan panjang, pastikan membawa bantal leher, buku atau film untuk hiburan, dan makanan ringan.",
+        "Tempat wisata terbaik di Indonesia termasuk Bali, Raja Ampat, Yogyakarta, dan Lombok."
+      ]
+    }
+  ]
+}
