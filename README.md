@@ -1,13 +1,55 @@
-Cara Menjalankan Program 
+# Cara Menjalankan Program
 
-1. buka file ini dengan Visual Studio Code atau Code editor lainnya
-2. buka terminal yang ada di visual studio code
-3. install Virutal Enviorment, ketikan perintah berikut pada terminal untuk kamu pengguna windows ( py -3 -m venv venv ), ketikan perintah berikut untuk kamu pengguna macOS ( python3 -m venv venv )
-4. aktifkan Virtual enviorment , ketikan perintah berikut pada terminal, untuk kamu pengguna windows ( venv/Script/activate ), untuk kamu pengguna macOS ( ( . venv/bin/activate ), Jika berhasil maka tulisan base akan berubah menjadi venv .
-5. Install Flask, Ketikan perintah berikut pada terminal untuk kamu pengguna windows dan juga MacOS ( pip install flask )
-6. Install torch, ketikan perintah berikut untuk kam pengguna windows dan juga MacOS ( pip install Flask torch torchvision nltk )
-7. Install NLTK , ketikan perintah berikut untuk kamu pengguna windows dan juga MacOS, ( pip install nltk )
-8. cara ke 2 install NLTK jika cara pertama atau cara di nomor 7 tidak berhasil , ketik python pada terminal lalu masukan import nltk tekan enter lalu masukan download,nltk('punkt') lalu tekan enter, kemudian ketikan quit() lalu tekan enter
-9. Ketikan perintah berikut untuk kamu pengguna Windows ( set FLASK_APP=app.py ), ketika perintah berikut untuk kamu pengguna MacOS ( export FLASK_APP=app,py )
+1. Buka file ini dengan Visual Studio Code atau code editor lainnya.
+2. Buka terminal yang ada di Visual Studio Code.
+3. Install Virtual Environment:
+   - Untuk pengguna Windows, ketik perintah berikut pada terminal:
+     ```sh
+     py -3 -m venv venv
+     ```
+   - Untuk pengguna macOS, ketik perintah berikut:
+     ```sh
+     python3 -m venv venv
+     ```
+4. Aktifkan Virtual Environment:
+   - Untuk pengguna Windows:
+     ```sh
+     venv\Scripts\activate
+     ```
+   - Untuk pengguna macOS:
+     ```sh
+     source venv/bin/activate
+     ```
+   - Jika berhasil, prompt terminal akan berubah dari `base` menjadi `venv`.
+5. Install Flask:
+   ```sh
+   pip install flask
+   ```
+6. Install Torch dan dependensinya:
+   ```sh
+   pip install torch torchvision nltk
+   ```
+7. Install NLTK:
+   ```sh
+   pip install nltk
+   ```
+8. Jika cara di atas tidak berhasil untuk NLTK, coba alternatif berikut:
+   - Ketik `python` pada terminal.
+   - Masukkan perintah berikut satu per satu:
+     ```python
+     import nltk
+     nltk.download('punkt')
+     ```
+   - Setelah selesai, ketik `quit()` lalu tekan Enter.
+9. Atur variabel lingkungan Flask:
+   - Untuk pengguna Windows:
+     ```sh
+     set FLASK_APP=app.py
+     ```
+   - Untuk pengguna macOS:
+     ```sh
+     export FLASK_APP=app.py
+     ```
 
-SELESAI , semoga bermanfaat yah :)
+**Selesai!** Semoga bermanfaat. 😊
+
